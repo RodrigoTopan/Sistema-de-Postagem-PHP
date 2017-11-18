@@ -1,0 +1,10 @@
+create database db_postagens;
+use db_postagens;
+create table tb_noticia(
+cd_noticia int PRIMARY KEY AUTO_INCREMENT not null,
+nm_imagem_noticia varchar(100),
+nm_noticia varchar(100),
+ds_noticia text,
+cd_membro int
+);
+insert into tb_noticia values(DEFAULT,'b1.jpg','Teste','Testando vizualização de notícias',1);
