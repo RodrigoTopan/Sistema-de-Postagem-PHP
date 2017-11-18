@@ -11,7 +11,7 @@ $result="delete from tb_noticia where cd_noticia='$id'";
 
     if(mysql_query($result)){
             
-            header("Location:gerenciador_enquetes.php");
+            header("Location:montador.php");
         }
         else{
             

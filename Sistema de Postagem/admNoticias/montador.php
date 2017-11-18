@@ -104,7 +104,7 @@
                           <center><h3 class="modal-title" id="myModalLabel"> Notícia <?php echo $linha['cd_noticia'];?></h3></center>
                         </div>
                         <div class="modal-footer">
-                          <form action="deletarEnquete.php" method="post">
+                          <form action="deletarNoticia.php" method="post">
                             <input type="hidden" name="del_noticia" value="<?php echo $linha['cd_noticia'];?>" readonly>
                             <input type="submit" class="btn btn-default" value="APAGAR">
                           </form>
